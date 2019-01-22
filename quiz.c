@@ -1,6 +1,6 @@
 #include<stdio.h>                              /*made by nipun singal himself*/
 
-int ()
+int main ()
 {                                             /*declaring the variables*/
     int [20];                                  /*array is declared*/
     char ans,ans2;
