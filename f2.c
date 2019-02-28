@@ -109,12 +109,7 @@ for(a=0;a<=100;a++)                                /*for loop is used so that we
 
 
                 case 10:printf("\nQ10. If return type for a function is not specified, it defaults to int?\n answer--");
-                     scanf("%s",&ans);
-                     if(ans=='T'||ans=='t')
-                     {scr[9]=1;}
-                     else
-                     {scr[9]=-1;}
-                     printf("\n\n");
+        
                      break;
 
                 case 11:printf("\nRound2 Begins......Multiple Choice  Write A,B,C or D\n\n\n");
