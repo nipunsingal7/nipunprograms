@@ -38,11 +38,7 @@ namespace IQ
                     flag=1;
                 }
             }
-            if (flag == 1)
-            {
-                MessageBox.Show("Successfully Logged ");
-                obj.ShowDialog();
-            }
+        
             else
             {
                 MessageBox.Show("invalid username or password");

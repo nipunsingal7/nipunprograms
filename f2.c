@@ -157,11 +157,7 @@ for(a=0;a<=100;a++)                                /*for loop is used so that we
 
                  case 15:printf("\nQ15. C is the successor of ___ programming language?\n (A) C++\n (B) B++\n (C) B\n (D) Mini C\n\n answer--");
                      scanf("%s",&ans);
-                     if(ans=='C'||ans=='c')
-                     {scr[14]=1;}
-                     else
-                     {scr[14]=-1;}
-                     printf("\n\n");
+                
                      break;
 
 

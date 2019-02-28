@@ -19,7 +19,7 @@ int main()
     printf("SUM = %d\n", sum);
     printf("DIFFERENCE = %d\n", sub);
     printf("multy=%d",mult);
-
+    printf("divid=%d",div);
     return 0;
 }
 
