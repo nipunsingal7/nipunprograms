@@ -173,16 +173,7 @@ for(a=0;a<=100;a++)                                /*for loop is used so that we
                          else
                         {scr[15]=-1;}
                         printf("\n\n");
-                        break;
-
-                  case 17:printf("\nQ17. Which of the following are loops?\n (A) for\n (B) while\n (C) switch case\n (D) If-else\n\n answer--");
-                     scanf("%s%s",&ans,&ans1);
-                     if((ans=='A'&&ans1=='B')||(ans=='a'&&ans1=='b'))
-                     {scr[16]=1;}
-                     else
-                     {scr[16]=-1;}
-                     printf("\n\n");
-                     break;
+            
 
                   }
 

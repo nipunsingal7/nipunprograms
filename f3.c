@@ -25,6 +25,10 @@ namespace IQ
             String connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=pst.accdb";
             OleDbConnection conn = new OleDbConnection(connString);
             string q = "select * from register";
+	    OleDbCommand cmd = new OleDbCommand(q, conn);
+            conn.Open();
+            OleDbDataReader rdr = cmd.ExecuteReader();
+           
  
             int flag = 0;
             while (rdr.Read())
