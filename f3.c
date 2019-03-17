@@ -13,7 +13,14 @@ namespace IQ
 {
     public partial class Form6 : Form
     {
+<<<<<<< HEAD
     
+=======
+        public Form6()
+        {
+           
+        }
+>>>>>>> e64cda60a5c6080a193ccf2644e272fb2dcff11e
 
         private void button1_Click(object sender, EventArgs e)
         {
